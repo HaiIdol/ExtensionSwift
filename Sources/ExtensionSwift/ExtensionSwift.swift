@@ -2,11 +2,14 @@ public struct ExtensionSwift {
     
     public init() {
         
-        func formatToString(maximumFractionDigits: Int, price: Double) -> String {
-            
-            return FormatToString(maximumFractionDigits: maximumFractionDigits, price: price)
-        }
-        
     }
    
+}
+
+extension ExtensionSwift {
+    
+    public func formatToString(maximumFractionDigits: Int, price: Double) -> String {
+        
+        return FormatToString(maximumFractionDigits: maximumFractionDigits, price: price)
+    }
 }
