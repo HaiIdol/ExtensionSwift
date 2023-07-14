@@ -1,6 +1,6 @@
 import Foundation
 
-public func formatToString(maximumFractionDigits: Int, price: Double) -> String{
+func FormatToString(maximumFractionDigits: Int, price: Double) -> String{
     let numberFormatter = NumberFormatter()
     numberFormatter.groupingSeparator = "."
     numberFormatter.groupingSize = 3
